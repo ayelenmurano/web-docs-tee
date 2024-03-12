@@ -45,14 +45,14 @@ rustup target add wasm32-unknown-unknown --toolchain nightly-2021-04-25
 
 Now that we are compiling the substrate node in the background, we can move onto the images (which will also take long to build!).
 
-You can check how to do it [here](./technical/BSP/BSP)
+You can check how to do it [here](./BSP/BSP)
 
 ## Flashing SDCard
 
-After we are done building our image(s) we can [flash the micro SDcard](./technical/BSP/flashing) with it.
+After we are done building our image(s) we can [flash the micro SDcard](./BSP/flashing) with it.
 
 ## Hardware Setup
 
 Each board requires a bit different setup, like connecting what cable to where, but the objective is the same: powering on the device and connecting to the serial port to inspect the output on the tty and verify the service is running.
 
-Please refer to the specific hardware setup page for [`dk2`](./technical/HardwareSetup/HW_STM32MP157F-DK2) and [`imx8mm-evk`](./technical/HardwareSetup/HW_8MMINILPD4-EVKB).
+Please refer to the specific hardware setup page for [`dk2`](./HardwareSetup/HW_STM32MP157F-DK2) and [`imx8mm-evk`](./HardwareSetup/HW_8MMINILPD4-EVKB).
